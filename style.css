@@ -20,11 +20,15 @@ body {
 }
 
 .links-container a {
-    width: 80%;
+    width: 95%;
+}
+
+.w3-theme-l1 {
+    transition-duration: 0.25s;
 }
 
 .w3-theme-l1:hover {
-    background-color: #1FB5FB !important;
+    background-color: #ab4e5f !important;
 }
 
 .margin-top-2 {
