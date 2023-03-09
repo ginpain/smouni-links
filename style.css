@@ -1,4 +1,4 @@
-body {
+ {
   background: url("https://www.w3schools.com/howto/img_link_tree_template1_bg.jpg"); /* The image used for background */
 }
 
@@ -12,17 +12,10 @@ body {
 }
 
 .links-container {
-  main
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
   display: flex;
   flex-direction: column;
   jusify-content: center;
   align-items: center;
-  main
 }
 
 .links-container a {
