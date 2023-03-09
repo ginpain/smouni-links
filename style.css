@@ -23,12 +23,7 @@ body {
     width: 80%;
 }
 
-.w3-theme-l1 {
-    transition-duration: 0.5s;
-}
-
 .w3-theme-l1:hover {
-    transform: scale(1.25);
     background-color: #1FB5FB !important;
 }
 
