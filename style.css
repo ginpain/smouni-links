@@ -1,65 +1,65 @@
 body {
-    background: url("https://www.w3schools.com/howto/img_link_tree_template1_bg.jpg");
-    /* The image used for background */
+  background: url("https://www.w3schools.com/howto/img_link_tree_template1_bg.jpg"); /* The image used for background */
 }
 
 .container {
-    width: 100%;
-    height: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  width: 100%;
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .links-container {
+  main
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content: center;
     align-items: center;
+  display: flex;
+  flex-direction: column;
+  jusify-content: center;
+  align-items: center;
+  main
 }
 
 .links-container a {
-    width: 95%;
-}
-
-.w3-theme-l1 {
-    transition-duration: 0.25s;
+  width: 80%;
 }
 
 .w3-theme-l1:hover {
-    background-color: #ab4e5f !important;
+  background-color: #1FB5FB !important;
 }
 
 .margin-top-2 {
-    margin-top: 32px;
+  margin-top: 32px;
 }
 
 .bottom {
-    width: 100%;
-    text-align: center;
-    width: auto;
-    font-weight: bolder;
+  width: 100%;
+  text-align: center;
+  width: auto;
+  font-weight: bolder;
 }
 
 .bottom span {
-    color: #0f95de;
+  color: #0f95de;
 }
 
 .bottom svg {
-    stroke: #0bd264;
-    fill: #019945;
+  stroke: #0bd264;
+  fill: #019945;
 }
 
 @media (min-width: 768px) {
-    .link {
-        width: 100%;
-    }
+  .link {
+    width: 100%;
+  }
 }
-
 @media (min-width: 576px) {
-    .container {
-        max-width: 540px;
-    }
+  .container {
+    max-width: 540px;
+  }
 }
